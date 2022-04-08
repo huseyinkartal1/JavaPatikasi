@@ -20,5 +20,14 @@ public class NotOrtalamasiProgram {
 
         ort = (mat + fizik + kimya + turkce + muzik + tarih)/6;
         System.out.print("Toplam not ortalamanız: " + ort);
+        
+        boolean isPass=ort>=60;
+        
+        String result = isPass?"Geçtiniz":"Kaldınız";
+        
+        System.out.print(result);
+        
+        
+        
     }
 }
